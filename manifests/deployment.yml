@@ -17,7 +17,7 @@ spec:
         io.kompose.service: kneipolympics-deployment
     spec:
       containers:
-        - image: ghcr.io/pesca-dev/kneipolympics:7475b8ce77984e1f1fbd5db82eb8f31052bdf3f3
+        - image: ghcr.io/pesca-dev/kneipolympics:503c42f422fe8f490a22d2166fcf2440b26f7503
           imagePullPolicy: Always
           name: aoc-website-deployment
           ports:
